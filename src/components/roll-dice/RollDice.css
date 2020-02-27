@@ -1,0 +1,25 @@
+.roll_dice {
+    display: grid;
+    height: 100vh;
+}
+.dice_container {
+    display: flex;
+    margin: auto;
+}
+.dice_button button {
+    width: 8em;
+    padding: .5em .75em;
+    color: #fff;
+    font-size: 2em;
+    font-weight: bolder;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    transition: 400ms background-color ease;
+}
+
+.dice_button button:hover {
+    background-color: darkslateblue;
+    cursor: pointer;
+}
